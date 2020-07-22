@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
+.btn {
+  background-color: #3e5966 !important;
+  color: #fff !important;
+  margin: 10px 0 30px 0;
+}
+/*----- Navigation ------ */
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #ff6f00 !important;
+  margin-left: 25px;
+}
+.navbar-brand img {
   pointer-events: none;
+  height: 42px;
+  padding: 0;
+  margin: 15px 0 0 15px;
+}
+.navbar-nav li {
+  padding: 20px 10px;
+}
+.navbar-nav li a {
+  text-transform: uppercase;
+  float: right;
+  text-align: left;
+}
+.nav-link {
+  font-weight: 700;
+  color: #2f2f2f;
+  font-size: 16px;
+}
+#nav-bar ul li a:hover {
+  color: #ff6f00;
+  transition: 0.5s ease-in;
+  border-bottom: 3px #ff6f00 solid;
+}
+.navbar {
+  background-color: #fff;
+}
+.navbar-toggler {
+  border: none !important;
+}
+/* ShowCase */
+.showcase {
+  margin-top: 50px;
+  position: relative;
+}
+.showcase-content {
+  width: 40%;
+  text-align: justify;
+  position: absolute;
+  left: 50px;
+  top: 90px;
+}
+.showcase-content h4 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #3e5966;
+}
+.showcase-content h4 span {
+  text-transform: uppercase;
+  color: #f7973f;
+}
+.showcase-content p {
+  font-size: 1.1em;
+}
+.svg {
+  enable-background: new 0 139.2 595.3 441.2;
+}
+.st0 {
+  fill: #d2f4fc;
+}
+.st1 {
+  fill: #c4e8f7;
+}
+.st2 {
+  fill: #a9d9ed;
+}
+.st3 {
+  fill: #629db2;
+}
+.st4 {
+  fill: #425e6b;
+}
+.st5 {
+  fill: #f7973f;
+}
+.st6 {
+  fill: #7ba5ba;
+}
+.st7 {
+  fill: #ffffff;
+}
+.st8 {
+  fill: #b8d1de;
+}
+.st9 {
+  fill: #d9f0fc;
+}
+.st10 {
+  fill: #b8dff2;
+}
+.st11 {
+  fill: #3e5966;
+}
+.st12 {
+  fill: #c7e2ef;
+}
+.st13 {
+  fill: #c86331;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#about {
+  margin: 50px 0;
+  color: #2f2f2f;
+}
+#about h2 {
+  margin-top: 70px;
+}
+#about p {
+  margin-top: 10px;
+}
+.about-content {
+  margin-top: 20px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.skill-bar {
+  font-weight: 600;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.skill-bar .progress-bar {
+  background-color: #3e5966;
+  border-radius: 20px;
 }
