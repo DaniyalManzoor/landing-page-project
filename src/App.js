@@ -18,15 +18,16 @@ const App = () => {
       <ShowCase />
       <FadeIn>
         <AboutUs />
-      </FadeIn>
-      <Services />
-      <FadeIn>
+
+        <Services />
+
         <Team />
+
+        <Price />
+        <Testimonial />
+        <Contact />
+        <Footer />
       </FadeIn>
-      <Price />
-      <Testimonial />
-      <Contact />
-      <Footer />
     </>
   );
 };
