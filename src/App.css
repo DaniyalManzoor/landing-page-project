@@ -274,7 +274,7 @@ h1::after {
 }
 #price {
   padding: 40px 0;
-  background-color: #d2f4fc;
+  background-color: #d9f0fc;
 }
 #price .single-price {
   margin: 10px auto;
@@ -303,7 +303,7 @@ h1::after {
 }
 
 #price .single-price .price-head p {
-  color: #efefef;
+  color: #d9f0fc;
   font-size: 25px;
   font-weight: bold;
   line-height: 30px;
@@ -315,22 +315,12 @@ h1::after {
   padding: 0 15px;
 }
 .price-content ul li {
-  border-bottom: 2px solid #efefef;
+  border-bottom: 2px solid #d9f0fc;
   padding: 15px 10px;
   list-style: none;
 }
 .price-content ul li:last-child {
   border: none;
-}
-.price-content ul li .fa-times-circle {
-  color: red;
-  margin-right: 10px;
-  font-size: 20px;
-}
-.price-content ul li .fa-check-circle {
-  color: green;
-  margin-right: 10px;
-  font-size: 20px;
 }
 
 #price .price-btn {
@@ -365,7 +355,7 @@ h1::after {
 }
 #testimonials .profile {
   padding: 70px 10px 10px;
-  background-color: #efefef;
+  background-color: #d9f0fc;
 }
 .user {
   width: 120px;
@@ -397,4 +387,40 @@ h1::after {
   box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: 0.5s;
+}
+#contact {
+  padding: 40px 0;
+  background-color: #d2f4fc;
+  color: #777;
+}
+#contact .contact-form {
+  padding: 15px;
+}
+#contact .btn {
+  background-color: #425e6b;
+  color: #fff;
+}
+
+.form-control {
+  border-radius: 0 !important;
+  border: none !important;
+}
+::placeholder {
+  color: #999 !important;
+}
+#contact .follow {
+  padding: 10px;
+  background-color: #fff;
+  margin: 15px;
+}
+#contact .fa {
+  margin: 10px;
+  color: #425e6b;
+}
+footer {
+  background-color: #333333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
 }

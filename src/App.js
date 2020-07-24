@@ -8,6 +8,8 @@ import FadeIn from "react-reveal";
 import "./App.css";
 import Testimonial from "./components/testimonial";
 import Price from "./components/priceSection";
+import Contact from "./components/contactSection";
+import Footer from "./components/footer";
 
 const App = () => {
   return (
@@ -23,6 +25,8 @@ const App = () => {
       </FadeIn>
       <Price />
       <Testimonial />
+      <Contact />
+      <Footer />
     </>
   );
 };
