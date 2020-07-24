@@ -7,6 +7,7 @@ import Team from "./components/teamSection";
 import FadeIn from "react-reveal";
 import "./App.css";
 import Testimonial from "./components/testimonial";
+import Price from "./components/priceSection";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <FadeIn>
         <Team />
       </FadeIn>
+      <Price />
       <Testimonial />
     </>
   );

@@ -8,6 +8,18 @@
   color: #fff !important;
   margin: 10px 0 30px 0;
 }
+h1 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+h1::after {
+  content: "";
+  background-color: #3e5966;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
 /*----- Navigation ------ */
 #nav-bar {
   position: sticky;
@@ -260,6 +272,87 @@
   margin-top: 15px;
   color: #2f2f2f;
 }
+#price {
+  padding: 40px 0;
+  background-color: #d2f4fc;
+}
+#price .single-price {
+  margin: 10px auto;
+  width: 100%;
+  background-color: #fff;
+}
+#price .single-price:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 20px #777;
+  transition: 0.5s;
+}
+#price .single-price .price-head {
+  background-color: #425e6b;
+  padding: 10px 5px;
+  text-align: center;
+  width: 100%;
+}
+
+#price .single-price .price-head h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+#price .single-price .price-head p {
+  color: #efefef;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 30px;
+}
+#price .single-price .price-head span {
+  font-size: 15px !important;
+}
+#price .single-price .price-content {
+  padding: 0 15px;
+}
+.price-content ul li {
+  border-bottom: 2px solid #efefef;
+  padding: 15px 10px;
+  list-style: none;
+}
+.price-content ul li:last-child {
+  border: none;
+}
+.price-content ul li .fa-times-circle {
+  color: red;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.price-content ul li .fa-check-circle {
+  color: green;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+#price .price-btn {
+  padding: 15px 15px 30px;
+  text-align: center;
+}
+#price .buy-btn {
+  background-color: #425e6b;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 15px 50px;
+}
+#price .buy-btn:hover {
+  background-color: #425e6b;
+  border: 1px solid #fff;
+  transition: 0.5s;
+}
+#price a {
+  text-decoration: none !important;
+  color: #fff;
+}
+
 #testimonials {
   padding: 50px 0px;
   text-align: center;
