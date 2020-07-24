@@ -156,7 +156,7 @@ const ShowCase = () => {
   return (
     <>
       <div className="showcase">
-        <div class="showcase-content">
+        <div className="showcase-content">
           <h4>
             Welcome to<span> Dcodex</span>
           </h4>

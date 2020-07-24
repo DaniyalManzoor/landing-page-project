@@ -1,8 +1,9 @@
 import React from "react";
 import ShowCase from "./components/showcase";
 import NavBar from "./components/navBar";
-import "./App.css";
 import AboutUs from "./components/aboutUs";
+import Services from "./components/servies";
+import "./App.css";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <NavBar />
       <ShowCase />
       <AboutUs />
+      <Services />
     </>
   );
 };

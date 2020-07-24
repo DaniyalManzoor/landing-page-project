@@ -1,6 +1,7 @@
 import React from "react";
 import useWebAnimations from "@wellyshen/use-web-animations";
-const AboutUs = () => {
+
+const AboutUs = ({ playAnimation }) => {
   const progressBarKeyframe85 = [{ width: "0%" }, { width: "85%" }];
   const progressBarKeyframe80 = [{ width: "0%" }, { width: "80%" }];
   const progressBarKeyframes65 = [{ width: "0%" }, { width: "65%" }];
