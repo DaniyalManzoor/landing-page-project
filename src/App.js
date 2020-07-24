@@ -4,21 +4,23 @@ import NavBar from "./components/navBar";
 import AboutUs from "./components/aboutUs";
 import Services from "./components/servies";
 import Team from "./components/teamSection";
-import FadeOut from "react-reveal";
+import FadeIn from "react-reveal";
 import "./App.css";
+import Testimonial from "./components/testimonial";
 
 const App = () => {
   return (
     <>
       <NavBar />
       <ShowCase />
-      <FadeOut>
+      <FadeIn>
         <AboutUs />
-      </FadeOut>
+      </FadeIn>
       <Services />
-      <FadeOut>
+      <FadeIn>
         <Team />
-      </FadeOut>
+      </FadeIn>
+      <Testimonial />
     </>
   );
 };
