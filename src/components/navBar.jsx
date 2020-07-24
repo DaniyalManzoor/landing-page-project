@@ -4,9 +4,9 @@ const NavBar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light">
-        <a href="#" className="navbar-brand">
+        <div className="navbar-brand">
           <img src={logo} alt="" />
-        </a>
+        </div>
         <button
           className="navbar-toggler"
           type="button"
@@ -21,39 +21,25 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a href="#" className="nav-link nav-active">
-                Home
-              </a>
+              <button className="nav-link nav-active">Home</button>
             </li>
             <li className="nav-item">
-              <a href="#about" className="nav-link">
-                About Us
-              </a>
+              <button className="nav-link">About Us</button>
             </li>
             <li className="nav-item">
-              <a href="#services" className="nav-link">
-                Services
-              </a>
+              <button className="nav-link">Services</button>
             </li>
             <li className="nav-item">
-              <a href="#team" className="nav-link">
-                Our Team
-              </a>
+              <button className="nav-link">Our Team</button>
             </li>
             <li className="nav-item">
-              <a href="#price" className="nav-link">
-                Price Plans
-              </a>
+              <button className="nav-link">Price Plans</button>
             </li>
             <li className="nav-item">
-              <a href="#testimonials" className="nav-link">
-                Testimonials
-              </a>
+              <button className="nav-link">Testimonials</button>
             </li>
             <li className="nav-item">
-              <a href="#contact" className="nav-link">
-                Contact
-              </a>
+              <button className="nav-link">Contact</button>
             </li>
           </ul>
         </div>

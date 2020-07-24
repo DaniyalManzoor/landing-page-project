@@ -2,67 +2,75 @@ import React from "react";
 const Contact = () => {
   return (
     <div id="contact">
-      <div class="container">
+      <div className="container">
         <h1>Get in Touch</h1>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="contact-form">
-              <div class="form-group">
-                <input type="text" placeholder="Name" class="form-control" />
+        <div className="row">
+          <div className="col-md-6">
+            <div className="contact-form">
+              <div className="form-group">
+                <input
+                  type="text"
+                  placeholder="Name"
+                  className="form-control"
+                />
               </div>
-              <div class="form-group">
+              <div className="form-group">
                 <input
                   type="number"
                   placeholder="Phone Number"
-                  class="form-control"
+                  className="form-control"
                 />
               </div>
-              <div class="form-group">
-                <input type="text" placeholder="Email" class="form-control" />
+              <div className="form-group">
+                <input
+                  type="text"
+                  placeholder="Email"
+                  className="form-control"
+                />
               </div>
-              <div class="form-group">
+              <div className="form-group">
                 <textarea
                   name="message"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Message.."
                   rows="4"
                 ></textarea>
               </div>
-              <button type="submit" class="btn">
+              <button type="submit" className="btn">
                 Send Message
               </button>
             </div>
           </div>
-          <div class="col-md-6 contact-info">
-            <div class="follow">
+          <div className="col-md-6 contact-info">
+            <div className="follow">
               <b>Address:</b>
-              <i class="fa fa-map-marker"></i> XYZ, Karachi Pakistan
+              <i className="fa fa-map-marker"></i> XYZ, Karachi Pakistan
             </div>
-            <div class="follow">
+            <div className="follow">
               <b>Phone:</b>
-              <i class="fa fa-phone"></i>+1 12345678920
+              <i className="fa fa-phone"></i>+1 12345678920
             </div>
-            <div class="follow">
+            <div className="follow">
               <b>Email:</b>
-              <i class="fa fa-envelope-o"></i> loerm@example.com
+              <i className="fa fa-envelope-o"></i> loerm@example.com
             </div>
 
-            <div class="follow">
+            <div className="follow">
               <label>
                 <b>Get on Social:</b>
               </label>
-              <a href="#">
-                <i class="fa fa-facebook"></i>
-              </a>
-              <a href="#">
-                <i class="fa fa-linkedin"></i>
-              </a>
-              <a href="#">
-                <i class="fa fa-twitter"></i>
-              </a>
-              <a href="#">
-                <i class="fa fa-google-plus"></i>
-              </a>
+              {/* <button href="#">
+                <i className="fa fa-facebook"></i>
+              </button>
+              <button href="#">
+                <i className="fa fa-linkedin"></i>
+              </button>
+              <button href="#">
+                <i className="fa fa-twitter"></i>
+              </button>
+              <button href="#">
+                <i className="fa fa-google-plus"></i>
+              </button> */}
             </div>
           </div>
         </div>
