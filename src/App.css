@@ -39,11 +39,6 @@
   color: #2f2f2f;
   font-size: 16px;
 }
-#nav-bar ul li a:hover {
-  color: #ff6f00;
-  transition: 0.5s ease-in;
-  border-bottom: 3px #ff6f00 solid;
-}
 .navbar {
   background-color: #fff;
 }
@@ -228,4 +223,40 @@
   opacity: 0.7;
   fill: #ffffff;
   enable-background: new;
+}
+/* -------Team Section-------- */
+#team {
+  padding: 50px 0;
+  color: #2f2f2f;
+  text-align: center;
+}
+#team .profile-pic {
+  margin-top: 25px;
+}
+.profile-pic .img-box {
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+#team .img-box img {
+  margin: 0 auto;
+  border-radius: 50%;
+  filter: grayscale(1);
+  height: 200px;
+}
+#team .img-box img:hover {
+  filter: grayscale(0);
+  cursor: pointer;
+}
+.profile-pic h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #629db2;
+}
+.profile-pic h4 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #2f2f2f;
 }
